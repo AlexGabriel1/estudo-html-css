@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu {
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+    width: 100%;
+    background: rgb(41, 218, 159);
+    color: blue;
+    font-size: 2.5em;
+}
+.clear {
+    clear: both;
+}
+.imagem {
+    width: 90%;
+}
+
+.barra {
+    background: rgb(41, 218, 159);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;  
+}
+.barra ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    line-height: 50px;
+}
+.barra li {
+    float: left;
+    margin-left: 20px; 
+}
+.barra li a {
+    text-decoration: none;
+}
+.barra a:visited, a:link{
+    color: black;
+}
+.barra a:hover {
+    background: blanchedalmond;
+    color: blue;
+}
+
+body {
+    background: whitesmoke;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.navegacao {
+    float: left;
+    width: 5%;
+    margin-top: 10px;
+    
+}
+.navegacao ul {
+    list-style-type: none;
+}
+.navegacao li {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.navegacao li a:hover {
+    background: blue;
+}
+.navegacao  a {
+    text-decoration: none;
+}
+.noticias {
+    width: 90%;
+    float: right;
+    min-width: 660px;
+}   
+.conteudop {
+    float: left;
+    width: 64%;
+    padding: 5px;
+    background: whitesmoke;
+}
+.conteudos {
+    float: right;
+    width: 32%;
+    height: 477px;
+    padding: 5px;       
+    background: grey;
+    color: gold;
+}
+.rodape {
+    clear: both;
+    background:silver;
+    padding: 5px;
+    text-align: center;
+}

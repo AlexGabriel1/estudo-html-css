@@ -1,0 +1,13 @@
+.card {
+    height: 400px;
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px slategray;
+    text-align: center;
+    transition: 2s;
+}
+
+.card:hover {
+    background: blue;
+    box-shadow: 10px 10px 10px 10px;
+    height: 800px;
+}
